@@ -24,3 +24,10 @@ let restName=name.slice(1,name.length)
 restName=restName.toLowerCase()
 let capitalizedName=nameCapitalized + restName
 alert("Hello " + capitalizedName)
+
+
+// Arithmetic operation
+
+let dogAge=prompt("Enter the dog age: ")
+let HumanAge= (dogAge-2) * 4 + 21
+alert("The age of human is " + HumanAge)
