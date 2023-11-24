@@ -14,3 +14,13 @@ let inputUserSliced=inputUser.slice(0,140);
 let remainingCar=maxInputCar-inputUser;
 
 console.log("You have written " + inputUserSliced.length + " characters, and you have " + remainingCar + " left.");
+
+
+// capitalization of name
+
+let name=prompt("enter your name:")
+let nameCapitalized=name.slice(0,1).toUpperCase()
+let restName=name.slice(1,name.length)
+restName=restName.toLowerCase()
+let capitalizedName=nameCapitalized + restName
+alert("Hello " + capitalizedName)
