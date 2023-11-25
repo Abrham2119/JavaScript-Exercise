@@ -33,7 +33,19 @@ let HumanAge= (dogAge-2) * 4 + 21
 alert("The age of human is " + HumanAge)
 
 
-// Increment and decrement expression
+// Random Number generator
+// Love calculator code
+
+let maleName=prompt("Enter your name;-")
+let FemaleName=prompt("Enter your name;-")
+
+let n=math.random()
+let m=math.floor(n*100)+1
+
+console("your love score is " + m + "%.")
+
+
+
 
 
 
