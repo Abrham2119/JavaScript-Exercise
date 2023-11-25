@@ -63,6 +63,17 @@ if (m >= 100) {
 
 
 
+// The array code that person is member of us or not
+
+let yourName=prompt("Enter your namen:-")
+let listOfPersons=["abrham","zewdu","munie"]
+if (listOfPersons.includes(yourName)){
+    alert("you are a member of us")
+}
+else{
+    alert("you are not a member of us")
+}
+
 
 
 
