@@ -47,21 +47,18 @@ console("your love score is " + m + "%.")
 
 // comparators in Love calculator project
 
-let maleName=prompt("Enter your name;-")
-let FemaleName=prompt("Enter your name;-")
+let maleName = prompt("Enter the male name:");
+let femaleName = prompt("Enter the female name:");
 
-let n=math.random()
-let m=math.floor(n*100)+1
+let n = Math.random();
+let m = Math.floor(n * 100) + 1;
 
-if (m>=100){
-    alert("your love score is " + m + "%. you love each other")
-}
-elif(m<70 && m>=30){
-    alert("your love score is " + m + "%.")
-}
-
-else{
-    alert("your love score is " + m + "%. you goes like oil and water")
+if (m >= 100) {
+    alert("Your love score is " + m + "%. You love each other!");
+} else if (m < 70 && m >= 30) {
+    alert("Your love score is " + m + "%.");
+} else {
+    alert("Your love score is " + m + "%. You go together like oil and water.");
 }
 
 
