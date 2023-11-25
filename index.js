@@ -31,3 +31,9 @@ alert("Hello " + capitalizedName)
 let dogAge=prompt("Enter the dog age: ")
 let HumanAge= (dogAge-2) * 4 + 21
 alert("The age of human is " + HumanAge)
+
+
+// Increment and decrement expression
+
+
+
